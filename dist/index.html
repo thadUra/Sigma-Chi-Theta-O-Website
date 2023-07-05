@@ -30,7 +30,7 @@
                         <li class="nav-item"><a class="nav-link" href="#officers">Officers</a></li>
                         <li class="nav-item"><a class="nav-link" href="#philanthropy">Philanthropy</a></li>
                         <li class="nav-item"><a class="nav-link" href="#rush">Rush</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,7 +40,7 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Sigma Chi Davis</h1>
+                        <h1 class="mx-auto my-0 text-uppercase">Davis Sigma Chi</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">Theta Omicron Chapter</h2>
                         <a class="btn btn-primary" href="#rush">Rush Sign Up</a>
                     </div>
@@ -51,7 +51,7 @@
         <!-- Home Section -->
         <section id="home">
             <div class="container">
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-12 col-lg-5 offset-lg-1">
                 <h2 class="text-white mb-4">Our Mission</h2>
                 <p class="text-white-50">
@@ -80,7 +80,7 @@
             <!-- Founding -->
             <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                 <div class="col-xl-7 col-lg-7">
-                <img class="img-fluid mb-3 mb-lg-0" src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Sigma_Chi_fraternity_house_n.d._%283191828739%29.jpg" width="550px" height="auto" alt="">
+                <img class="img-fluid mb-4 mb-lg-0" src="./assets/img/alphachapter.jpeg" alt="">
                 </div>
                 <div class="col-xl-5 col-lg-5">
                 <div class="featured-text text-center text-lg-left">
@@ -373,7 +373,7 @@
         </section>
 
          <!-- Philanthropy Section -->
-        <section id="philanthropy" class="info-section section-padding no-section-padding-t bg-light">
+        <section id="philanthropy" class="info-section section-padding no-section-padding-t bg-light" style="padding-bottom:3rem;">
             <div class="container">
               <div class="row">
                 <div class="col-md-6 featured-text project-text">
@@ -404,11 +404,11 @@
           </section>
 
         <!-- Rush Section -->
-        <section id="rush" class="section-padding" style="margin-top:3rem;">
+        <section id="rush" class="section-padding bg-light">
             <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
-                <h1 class="text-white text-center mb-5">Fall Rush 2023</h1>
+                <h1 class="text-white text-center mb-5">Fall Rush Signup Form</h1>
                 <form name="submit-to-google-sheet" onSubmit="alert('Your response has been recorded.');">
                     <div class="form-row">
                     <div class="form-group col-md-6">
@@ -423,17 +423,17 @@
                     <div class="form-row">
                     <div class="form-group col-md-6">
                         <label class='text-white' for="email">Email</label>
-                        <input type="email" class="form-control" name="Email" id="inputEmail4" placeholder="Email" required>
+                        <input type="email" class="form-control" name="Email" id="inputEmail4" placeholder="email@ucdavis.edu" required>
                     </div>
                     <div class="form-group col-md-6">
                         <label class='text-white' for="number">Phone Number</label>
-                        <input type="text" class="form-control" name="Number" placeholder="(123)-456-7890" required>
+                        <input type="text" class="form-control" name="Number" id="phone-number" placeholder="(123)-456-7890" required>
                     </div>
                     </div>
                     <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label class='text-white' for="insta">Instagram</label>
-                        <input type="text" class="form-control" name="Insta" placeholder="@" required>
+                        <label class='text-white' for="age">Age</label>
+                        <input type="text" class="form-control" name="age" placeholder="# Years Old" required>
                     </div>
                     <div class="form-group col-md-6">
                         <label class='text-white' for="hometown">Hometown</label>
@@ -452,7 +452,15 @@
                     </div>
                     <div class="form-group">
                     <label class='text-white' for="fname">Why do you want to rush Sigma Chi?</label>
-                    <textarea class="form-control" rows="5" name="Why" id="comment" placeholder="Type your response..." required></textarea>
+                    <textarea class="form-control" rows="1" name="Why" id="comment" placeholder="Type your response..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class='text-white' for="fname">What are you looking for in a fraternity?</label>
+                        <textarea class="form-control" rows="1" name="Expectations" id="comment" placeholder="Please elaborate..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class='text-white' for="fname">Describe yourself in three words.</label>
+                        <textarea class="form-control" rows="1" name="Words" id="comment" placeholder="Type your response..." required></textarea>
                     </div>
                     <div class="form-group">
                     <label class='text-white' for="fname">How did you hear about us?</label>
@@ -471,7 +479,7 @@
         <section id="contact" class="contact-section bg-black">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-6 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
@@ -481,23 +489,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-6 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50"><a href="mailto:contact@sigmachidavis.com">contact@sigmachidavis.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Change phone # here</div>
                             </div>
                         </div>
                     </div>
@@ -518,5 +516,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
     </body>
 </html>
